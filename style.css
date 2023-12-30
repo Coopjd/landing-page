@@ -4,6 +4,10 @@
     flex-direction: column;
 }
 
+
+/*Start of column 1. Includes header */
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -14,12 +18,13 @@
 .logo {
     display: flex;
     font-size: 24px;
+    font-weight: 800;
 }
 
 .header-links {
     display: flex;
     margin: 0px;
-    gap: 8px
+    gap: 15px
 }
 
 ul {
@@ -60,3 +65,13 @@ img {
     width: 400px;
 }
 
+
+/* Start of column 2 */
+
+.random_header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
