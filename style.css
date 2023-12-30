@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+}
+
+.header-links {
+    display: flex;
+    margin: 0px;
+    gap: 8px
+}
+
+ul {
+    list-style-type: none;
+}
