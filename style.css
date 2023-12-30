@@ -154,3 +154,18 @@ img {
     font-weight: 800;
     align-self: flex-end;
 }
+
+/* Start column 4 */
+
+.column4 {
+    padding: 50px;
+}
+
+.blue_box {
+    display: flex;
+    justify-content: center;
+    background-color:#3882F6 ;
+    height: 100px;
+    align-items: center;
+    color: #F9FAF8;
+}
