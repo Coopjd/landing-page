@@ -129,7 +129,15 @@ img {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 20%;
+    padding: 40px;
+}
+
+.full_quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    
+
 }
 
 .quote {
