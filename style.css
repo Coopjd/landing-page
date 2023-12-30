@@ -1,7 +1,8 @@
 
-.page {
+body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 
@@ -189,6 +190,7 @@ img {
     padding: 10px 100px 10px;
     align-items: center;
     color: #F9FAF8;
+    margin: auto;
 }
 
 .action_title {
