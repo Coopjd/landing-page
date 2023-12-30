@@ -68,6 +68,10 @@ img {
 
 /* Start of column 2 */
 
+.column2 {
+    padding: 20px 40px 40px;
+}
+
 .random_header {
     display: flex;
     justify-content: center;
@@ -129,13 +133,14 @@ img {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 40px;
+    padding: 100px;
 }
 
 .full_quote {
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    width: 700px;
+    margin: auto;
     
 
 }
@@ -145,6 +150,7 @@ img {
     flex: 0 1 auto;
     font-size: 36px;
     font-style: italic;
+    flex-wrap: wrap;
     color: #1F2937;
 }
 
@@ -174,3 +180,14 @@ img {
     align-items: center;
     color: #F9FAF8;
 }
+
+/* Start of footer */
+
+.footer {
+    display: flex;
+    background-color:#1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 30px;
+}
+
